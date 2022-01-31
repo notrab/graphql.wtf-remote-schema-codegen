@@ -1,0 +1,9 @@
+generates:
+  ./generated/cartql.json:
+    schema: https://api.cartql.com
+    plugins:
+      - introspection
+  ./generated/graphcms.json:
+    schema: https://api-eu-central-1.graphcms.com/v2/ckrvra12f06pb01z82dn2ebd4/master
+    plugins:
+      - introspection
